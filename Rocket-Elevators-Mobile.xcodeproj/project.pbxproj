@@ -13,6 +13,9 @@
 		B5EA4A1324660BE4009F2F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EA4A1124660BE4009F2F22 /* Main.storyboard */; };
 		B5EA4A1524660BE6009F2F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EA4A1424660BE6009F2F22 /* Assets.xcassets */; };
 		B5EA4A1824660BE6009F2F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EA4A1624660BE6009F2F22 /* LaunchScreen.storyboard */; };
+		B5EA4A20246624E3009F2F22 /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EA4A1F246624E3009F2F22 /* StartupViewController.swift */; };
+		B5EA4A222466250B009F2F22 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EA4A212466250B009F2F22 /* HomeViewController.swift */; };
+		B5EA4A2424662523009F2F22 /* ElevatorStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EA4A2324662523009F2F22 /* ElevatorStatusViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B5EA4A1424660BE6009F2F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5EA4A1724660BE6009F2F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5EA4A1924660BE6009F2F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EA4A1F246624E3009F2F22 /* StartupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
+		B5EA4A212466250B009F2F22 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B5EA4A2324662523009F2F22 /* ElevatorStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorStatusViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				B5EA4A0D24660BE4009F2F22 /* SceneDelegate.swift */,
 				B5EA4A0F24660BE4009F2F22 /* ViewController.swift */,
 				B5EA4A1124660BE4009F2F22 /* Main.storyboard */,
+				B5EA4A1F246624E3009F2F22 /* StartupViewController.swift */,
+				B5EA4A212466250B009F2F22 /* HomeViewController.swift */,
+				B5EA4A2324662523009F2F22 /* ElevatorStatusViewController.swift */,
 				B5EA4A1424660BE6009F2F22 /* Assets.xcassets */,
 				B5EA4A1624660BE6009F2F22 /* LaunchScreen.storyboard */,
 				B5EA4A1924660BE6009F2F22 /* Info.plist */,
@@ -138,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5EA4A222466250B009F2F22 /* HomeViewController.swift in Sources */,
+				B5EA4A20246624E3009F2F22 /* StartupViewController.swift in Sources */,
+				B5EA4A2424662523009F2F22 /* ElevatorStatusViewController.swift in Sources */,
 				B5EA4A1024660BE4009F2F22 /* ViewController.swift in Sources */,
 				B5EA4A0C24660BE4009F2F22 /* AppDelegate.swift in Sources */,
 				B5EA4A0E24660BE4009F2F22 /* SceneDelegate.swift in Sources */,
